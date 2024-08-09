@@ -55,7 +55,7 @@ function UserDetails() {
           <div className="flex flex-col gap-2">
             <label className="font-bold">Name</label>
             <input
-              className="bg-stone-200 px-2 py-1 w-96 md:w-44 xl:w-56"
+              className="bg-stone-200 px-2 py-1 w-full md:w-44 xl:w-56"
               type="text"
               id="name"
               value={formname}
@@ -68,7 +68,7 @@ function UserDetails() {
             <label className="font-bold">Email Address</label>
             <input
               required
-              className="bg-stone-200 px-2 py-1 w-96  md:w-44 xl:w-56"
+              className="bg-stone-200 px-2 py-1 w-full  md:w-44 xl:w-56"
               type="email"
               id="email"
               value={formemail}
@@ -80,7 +80,7 @@ function UserDetails() {
             <label className="font-bold">Username</label>
             <input
               required
-              className="bg-stone-200 px-2 py-1 w-96 md:w-44 xl:w-56"
+              className="bg-stone-200 px-2 py-1 w-full md:w-44 xl:w-56"
               type="text"
               id="username"
               value={formusername}
@@ -92,7 +92,7 @@ function UserDetails() {
             <label className="font-bold">Address</label>
             <input
               required
-              className="bg-stone-200 h-[58px] px-2 py-1 w-96 md:w-44 xl:w-56"
+              className="bg-stone-200 h-[58px] px-2 py-1 w-full md:w-44 xl:w-56"
               type="text"
               id="address"
               value={formaddress}
@@ -107,7 +107,7 @@ function UserDetails() {
             <input
               required
               value={formcomapanyname}
-              className="bg-stone-200 px-2 py-1 w-96  md:w-44 xl:w-56"
+              className="bg-stone-200 px-2 py-1 w-full  md:w-44 xl:w-56"
               type="text"
               id="companyname"
               defaultValue={companyname}
@@ -119,7 +119,7 @@ function UserDetails() {
             <input
               required
               value={formindustry}
-              className="bg-stone-200 px-2 py-1 w-96  md:w-44 xl:w-56"
+              className="bg-stone-200 px-2 py-1 w-full md:w-44 xl:w-56"
               type="text"
               id="industry"
               defaultValue={industry}
@@ -131,7 +131,7 @@ function UserDetails() {
             <input
               required
               value={formcatchPhrase}
-              className="bg-stone-200 h-[70px] px-2 py-1 w-96 md:w-44 xl:w-56"
+              className="bg-stone-200 h-[70px] px-2 py-1 w-full md:w-44 xl:w-56"
               type="text"
               id="catchPhrase"
               defaultValue={catchPhrase}
@@ -141,7 +141,7 @@ function UserDetails() {
           <div>
             <button
               onClick={handleupdate}
-              className="text-white w-96  md:w-44 xl:w-56 p-2 mt-3 rounded-full bg-slate-500"
+              className="text-white w-full  md:w-44 xl:w-56 p-2 mt-3 rounded-full bg-slate-500"
             >
               Update
             </button>

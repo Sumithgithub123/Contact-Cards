@@ -38,7 +38,7 @@ function Posts({ search }) {
       <div className="xl:py-4 min-h-[470px]">
         <h3 className="font-bold mt-2 xl:mt-0 text-lg">User Post Lists</h3>
         <div className="mt-1 p-2 flex gap-1">
-          <div className="grid-cols-1 lg:grid-cols-3 grid md:gap-y-9 gap-y-5 gap-x-7 ">
+          <div className="grid-cols-1 lg:grid-cols-3 grid md:gap-y-9 gap-y-5 gap-x-7 lg:gap-x-5 xl:gap-x-7 ">
             {div?.map((div) => {
               return <PostCard post={div} key={div.id} />;
             })}
